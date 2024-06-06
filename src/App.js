@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import cat from './images/cat.jpeg'
+import dog from './images/catDogOne.jpeg'
 import './App.css';
 
 function App() {
@@ -6,8 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <img src="https://placekitten.com/200/300" alt="Cat" />
-        <img src="https://placedog.net/200/300" alt="Dog" />
+        <img src={cat} alt="Cat" />
+        <img src={dog} alt="Dog" />
         <img src="https://placebeard.it/200x300" alt="Bird" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
